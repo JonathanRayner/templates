@@ -1,0 +1,17 @@
+# turn off toc so we can place it after the title
+# #+OPTIONS: toc:nil
+
+# Title shouldn't appear in toc
+* Title
+:PROPERTIES:
+:UNNUMBERED: notoc
+:END:
+
+Description
+
+# insert the toc here
+#+TOC: headlines
+
+* Section 1
+
+Section 1 text
