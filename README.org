@@ -1,17 +1,6 @@
 # title shouldn't appear in toc
-* Title :noexport:
+* Templates :noexport:
 
-Description
+Some of my regularly used templates.
 
 * Contents :TOC:
-- [[#intro][Intro]]
-- [[#files-in-this-repository][Files in this Repository]]
-
-* Intro
-
-Intro
-
-* Files in this Repository
-
-- File 1
-- File 2
