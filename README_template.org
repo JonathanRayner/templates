@@ -3,9 +3,9 @@
 
 Description
 
-# * Contents :TOC:
-# - [[#intro][Intro]]
-# - [[#files-in-this-repository][Files in this Repository]]
+* Contents :TOC:
+- [[#intro][Intro]]
+- [[#files-in-this-repository][Files in this Repository]]
 
 * Intro
 
