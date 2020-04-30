@@ -1,11 +1,17 @@
 # turn off toc so we can place it after the title
-# #+OPTIONS: toc:nil
+#+OPTIONS: toc:nil
 
-# Title shouldn't appear in toc
+# implements gitlab flavored inline math by exporting {{{inlinemath(f(x))}}} as $` f(x) `$
+# makes use of org-entities-user custom symbols defined in .spacemacs
+#+MACRO: inlinemath \lgitlabmath $1 \rgitlabmath
+
+# title shouldn't appear in toc
 * Title
 :PROPERTIES:
 :UNNUMBERED: notoc
 :END:
+
+# Macros have to go after the above commands or else toc is generated twice
 
 Description
 
